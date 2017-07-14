@@ -1,17 +1,23 @@
 
-body {
-	line-height: 1;
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+
+.title{
+	color: #FBCE05;
+}
+.material-icons {
+	color: #3e3f41;
+	font-size:14px;
+	font-weight: lighter;
+	position: absolute;
 }
 
-h1{
-	color: #FBCE05;
-	padding: 24px 35px;
-	font-size: 30px;
+input[type=email]:not(.browser-default), input[type=password]:not(.browser-default) {
+	border-bottom: none;	
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -32,38 +38,16 @@ a, a:hover, a:focus, a:active, button  {
 	color: #fff;
 }
 
-button{
+input#submitbtn{
 	text-decoration: none;
 	background-color: #FBCE05;
 	width: 100%;
 	border: 1px solid white;
 	line-height: 40px;
 	border-radius: 5px;
-	background-color: transparent;
 	margin-bottom: 20px;
 }
 
-input#email.form-control{
-	text-decoration: none;
-	color: #fff;
-	width: 100%;
-	border: 1px solid white;
-	line-height: 40px;
-	border-radius: 5px;
-	background-color: transparent;
-	margin-bottom: 20px;
-}
-
-input#password.form-control{
-	text-decoration: none;
-	color: #fff;
-	width: 100%;
-	border: 1px solid white;
-	line-height: 40px;
-	border-radius: 5px;
-	background-color: transparent;
-	margin-bottom: 20px;
-}
 /**/
 
 body {
@@ -73,6 +57,8 @@ body {
 	background-repeat: no-repeat;
 	min-height: 100vh;
 	padding: 100px;
+	line-height: 1;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
 }
 
 .container {
@@ -91,7 +77,8 @@ label {
 	margin: 1em auto;
 }
 
-.img-responsive{
+img{
+	
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 100%;
@@ -99,36 +86,54 @@ label {
 	height: 208px;
 	color: transparent;
 }
-#select {
-	background-color: transparent;
-	color: #fff;
-	border: none;
-	box-shadow: none;
-}
 
-option {
-	color: darkgrey;
-}
-/*INPUT CHECK*/
-input[type|=check] {
-	display: inline-block;
-	width: auto;
-}
-label[for|=check] {
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	font-weight: normal;
-	display: inline-block;
-}
-/* INPUT NUMBER SIN FLECHAS */
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-	-webkit-appearance: none; 
-	margin: 0; 
-}
-
-footer {
-	position: fixed;
-	bottom: 0;
+.user-signup-form {
+	background: #e1e1e1 
+	none repeat scroll 0 0;
+	display: block;
+	margin: 0 auto;
+	max-width: 444px;
 	width: 100%;
-	text-align: center;
+	padding-right:10px
 }
+
+#wp_signup_form {
+	display: block;
+	margin: 0 auto;
+	padding: 5px 10px;
+}
+
+#wp_signup_form > label {
+	float: left;
+	font-family: arial;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	width: 100%;
+	font-size:14px;
+	color: #3e3f41;
+}
+
+#password-error {
+	color: #ff0000;
+	font-size: 13px !important;
+}
+
+.checkbox {
+	float: left;
+	font-family: arial;
+	font-size: 12px;
+	margin: 10px 0;
+	width: 100%;
+}
+.checkbox > label {
+	line-height: 33px;
+}
+#email-error {
+	color: #ff0000;
+	font-size: 13px !important;
+}
+#password_confirmation-error {
+	color: #ff0000;
+	font-size: 13px !important;
+}
+
