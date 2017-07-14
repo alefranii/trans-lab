@@ -8,7 +8,10 @@ nav {
 	background-color: #3E3F41;
 	high:200px;	
 }
-
+nav.logo{
+	background-color: #3E3F41;
+	width: 100%;
+}
 nav i.material-icons {
 	font-size: 34px;
 	line-height: 41px;
@@ -111,3 +114,8 @@ a &:hover {
 }
 
 /*estilos del perfil*/
+
+.profile-pic{
+  padding: 3%;
+  width: 200px;
+}
