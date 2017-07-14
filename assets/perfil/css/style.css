@@ -110,7 +110,7 @@ a &:hover {
 
 
 .row {
-	padding-top:80px;
+    padding-top: 38px;
 }
 
 /*estilos del perfil*/
@@ -145,4 +145,24 @@ body {
 .perfil{
   padding: 3%;
   width: 200px;
+}
+
+input{
+	    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    outline: none;
+}
+
+h3 {
+    font-size: 1.92rem;
+    line-height: 110%;
+    margin: 4.46rem 8px 0.168rem 38px;
+}
+
+@media only screen and (min-width: 0)
+materialize.min.css:6
+html {
+    font-size: 18px;
 }
