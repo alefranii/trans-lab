@@ -1,1 +1,134 @@
-/* YeyeYeee código aquí */
+
+body {
+	line-height: 1;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+
+h1{
+	color: #FBCE05;
+	padding: 24px 35px;
+	font-size: 30px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a, a:hover, a:focus, a:active, button  {
+	transition: .5s all ease;
+	text-decoration: none;
+	font-weight: bolder;
+	color: #fff;
+}
+
+button{
+	text-decoration: none;
+	background-color: #FBCE05;
+	width: 100%;
+	border: 1px solid white;
+	line-height: 40px;
+	border-radius: 5px;
+	background-color: transparent;
+	margin-bottom: 20px;
+}
+
+input#email.form-control{
+	text-decoration: none;
+	color: #fff;
+	width: 100%;
+	border: 1px solid white;
+	line-height: 40px;
+	border-radius: 5px;
+	background-color: transparent;
+	margin-bottom: 20px;
+}
+
+input#password.form-control{
+	text-decoration: none;
+	color: #fff;
+	width: 100%;
+	border: 1px solid white;
+	line-height: 40px;
+	border-radius: 5px;
+	background-color: transparent;
+	margin-bottom: 20px;
+}
+/**/
+
+body {
+	color: #fff;
+	background-image: url('https://wallpaperscraft.com/image/texture_stripes_black_background_76565_1920x1080.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	padding: 100px;
+}
+
+.container {
+	max-width: 480px;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+nav {
+	display: flex;
+	align-items: center;
+}
+label {
+	margin: 1em auto;
+}
+
+.img-responsive{
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 236px;
+	height: 208px;
+	color: transparent;
+}
+#select {
+	background-color: transparent;
+	color: #fff;
+	border: none;
+	box-shadow: none;
+}
+
+option {
+	color: darkgrey;
+}
+/*INPUT CHECK*/
+input[type|=check] {
+	display: inline-block;
+	width: auto;
+}
+label[for|=check] {
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	display: inline-block;
+}
+/* INPUT NUMBER SIN FLECHAS */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none; 
+	margin: 0; 
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
