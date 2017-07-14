@@ -110,10 +110,37 @@ a &:hover {
 
 
 .row {
-	padding-top:150px;
+	padding-top:80px;
 }
 
 /*estilos del perfil*/
+
+body {
+    font-weight: 300;
+    background-color: #e0e0e0;
+}
+
+.photo-perfil {
+    background-color: #f6a800;
+}
+.imagen-perfil {
+    padding: 3%;
+    width: 200px;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.logo{
+  margin-top: 10%;
+  width: 40%;
+  height: 40%;
+}
+.title{
+  font-weight: bold;
+  color: #f6a800;
+}
 
 .perfil{
   padding: 3%;
