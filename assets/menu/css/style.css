@@ -1,1 +1,37 @@
-/* YeyeYeee código aquí */
+/* estilos menu index 2*/
+
+.index-menu2{
+	background-color: #cfcfcf;
+	height: 100vh;
+}
+nav{
+	background-color: #3E3F41;
+}
+.side-nav li>a>i, {
+	color: #F6A800;
+}
+.side-nav li>a{
+	color: black;
+}
+
+.section-menu{
+	text-align: center;
+}
+.menu-botoncito button{
+	display: block;
+}
+.row .col.s12{
+	padding: 12px;
+}
+.btn-saldo{
+	margin-top: 200px;
+}
+.btn-saldo, .btn-tarifa, .btn-perfil, .btn-pregunta{
+	margin-bottom: 15px;
+	border: none;
+	background-color: #F1C40F;
+	font-size: 25px;
+	font-weight: 300;
+	color: white;
+}
+
