@@ -12,6 +12,7 @@ $(document).ready(function () {
                         "password": {
                             required: true,
                             minlength: 8
+                            window.location.href = 'menu.html';
                         }, 
                     }
                 });
