@@ -1,1 +1,113 @@
-/* YeyeYeee código aquí */
+/* estilos barra menu universal*/
+.index-3{
+	background-color: #cfcfcf;
+	height: 100vh;
+}
+
+nav {
+	background-color: #3E3F41;
+	high:200px;	
+}
+
+nav i.material-icons {
+	font-size: 34px;
+	line-height: 41px;
+}
+
+nav ul{
+	background-color: #3E3F41;
+	height: 36px;
+	width: 36px;
+}
+
+
+.menu-collapsed {
+	transition: all .25s;
+	position: fixed;
+	top: 10px;
+	left: 9px;
+	height: 36px;
+	width: 36px;
+	z-index: 1;
+	cursor: pointer;
+}
+.menu-collapsed ul {
+	transition: all 0s;
+	position: fixed;
+	left: -9000px;
+}
+
+.bar {
+	@extend .b-a;
+	position: fixed;
+	left: 12px;
+	top: 24px;
+
+}
+.bar &:before {
+	@extend .b-a;
+	top: -8px;
+}
+.bar &:after {
+	@extend .b-a;
+	top: 8px;
+}
+
+.b-a-expanded {
+	transition: all .25s;
+	top: -0px;
+}
+.menu-expanded {
+	transition: all .25s;
+	text-align: center;
+	line-height: 200px;
+	height: 100%;
+	width: 100%;
+	border-radius: 0px;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.85);
+
+}
+.menu-expanded ul {
+	transition: all 0s;
+	position: relative;
+	left: 0;
+	z-index: 2;
+
+}
+.menu-expanded a {
+	transition: all .15s;
+	text-decoration: none;
+	font-size: 2em;
+	padding: 5px;
+	color: #fff;
+	display:block;
+}
+a &:hover {
+	background-color:rgba(white, .8);
+	transition: all .15s;
+	letter-spacing: 2px;
+	color:#333;
+	border: 1px solid rgba(255, 255, 255, .15);
+}
+
+.bar {
+	background-color: transparent;
+	transition: all .25s;
+}
+.bar &:before {
+	@extend .b-a-expanded;
+	transform: rotate(45deg);
+}
+.bar &:after {
+	@extend .b-a-expanded;
+	transform: rotate(-45deg);
+}
+
+
+.row {
+	padding-top:150px;
+}
+
+/*estilos del perfil*/

@@ -1,19 +1,12 @@
-/* estilos menu index 2*/
-
-.index-menu2{
+/* YeyeYeee código aquí */
+.index-6{
 	background-color: #cfcfcf;
 	height: 100vh;
-
 }
 
 nav {
 	background-color: #3E3F41;
-	high:200px;
-	
-}
-nav.logo{
-	background-color: #3E3F41;
-	width: 100%;
+	high:200px;	
 }
 
 nav i.material-icons {
@@ -116,28 +109,3 @@ a &:hover {
 .row {
 	padding-top:150px;
 }
-
-
-/*menufijo*/
-
-.section-menu{
-	text-align: center;
-}
-.menu-botoncito button{
-	display: block;
-}
-.row .col.s12{
-	padding: 12px;
-}
-.btn-saldo{
-	margin-top: 80px;
-}
-.btn-saldo, .btn-tarifa, .btn-perfil, .btn-pregunta{
-	margin-bottom: 15px;
-	border: none;
-	background-color: #F1C40F;
-	font-size: 25px;
-	font-weight: 300;
-	color: white;
-}
-
